@@ -1,0 +1,75 @@
+.container{
+    width: 40%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 3rem;
+    margin-top: 10rem;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 40px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+form label{
+    margin: 10px;
+    width: 70%;
+}
+
+.formulario-input {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #444;
+    width: 100%;
+    transition: border-bottom-color 0.3s ease-in-out;
+  }
+  
+  .formulario-input:focus {
+    outline: none;
+    border-bottom-color: #08aeea;
+  }
+  
+  .formulario-submit {
+    border: none;
+    background-color: #08aeea;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+  }
+  
+  .formulario-submit:hover {
+    background-color: #048ba8;
+  }
+
+  /* para cuando da error */
+  .formulario-input-error {
+    border: none;
+    border-bottom: 2px solid #e74c3c;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #444;
+    width: 100%;
+    transition: border-bottom-color 0.3s ease-in-out;
+    outline: none;
+  }  
